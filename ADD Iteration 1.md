@@ -2,7 +2,7 @@
 The goal of this software is to provide a system that provides a conversational AI program for students, faculty, and administrators to interact with to receive personal or course wide information, such as course schedules, deadlines, announcements, and academic analytics. The AI assistant will integrate with external university systems to deliver on topic answers. The institutions data will be available to the system to ensure accurate responses.
 
 Reviewing the functional requirements, the ones determined to be the primary drivers of the system composition and most relevant to this iteration are
-UC1: This is a major function for the system, this drives the conversational aspect of the system
+UC1; This is a major function for the system, this drives the conversational aspect of the system
 UC2: This will require a notification interface for the system between many users
 UC7: This will require aggregation of information from large amounts of student data
 UC9: This will require a permission interface for different users, requiring further security
