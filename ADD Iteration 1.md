@@ -46,13 +46,13 @@ The main AIDAP application layer will be decomposed as it is the main system, wh
 4. Choose one or more design concepts that satisfy the inputs  
 This system is comprised of multiple complex subsystems that all work together to fulfill a multitude of services for the user; they will need to be accessible through one interface for the user. Additionally, the system must have multiple interchangeable parts, such as CON8. Given this, it seems appropriate to begin with the Facade design pattern. The Facade pattern provides a single interface that encapsulate a set of interfaces from the subsystem, allowing for a single high-level interface that the user will interact with. The chatbot will be able to access all of these subsystems without the user ever being exposed to the internal structure of the system.
 
-5. Instantiate architectural elements, allocate responsbilities, and define interfaces   
+5. Instantiate architectural elements
 <img width="2550" height="3300" alt="assign2step5" src="https://github.com/user-attachments/assets/1875cf0e-807f-4e20-bae4-07d90e5f6774" />
 
-6. Sketch views and record design decisions  
+6. Sketch views
 <img width="706" height="448" alt="asdadfas" src="https://github.com/user-attachments/assets/873a9594-6aaf-4591-941f-90fe961742fd" />
 <img width="700" height="435" alt="assignnstep6" src="https://github.com/user-attachments/assets/1f66e441-cc06-43e2-8bf9-b70d4c49e9ff" />
 
 
-7. Perform analysis of current design and review iteration goal
-
+7. Perform analysis of current design and review iteration goal  
+The initial design of the AIDAP system successfully establishes the architectural foundation required for the first iteration. The Facade pattern effectively encapsulates the multiple subsystems, providing a single interface for user interaction. The iteration goal was to establish the system’s architectural foundation by identifying major interfaces, key quality attributes, essential use cases, and system constraints. Based on the current design, all major interfaces are defined, key quality atributes have been incorporated, the driving use cases are supported, and the system constraints havent been crossed. The current design meets the iteration goal, providing a solid foundation for subsequent iterations. Further iterations can build on this architecture to refine subsystem interactions, enhance performance, and incorporate additional features or external integrations.
