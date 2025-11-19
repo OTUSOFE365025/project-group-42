@@ -51,7 +51,7 @@
   This system is comprised of multiple complex subsystems that all work together to fulfill a multitude of services for the user; they will need to be accessible through one interface for the user. Additionally, the system must have multiple interchangeable parts, such as CON8. Given this, it seems appropriate to begin with the Facade design pattern. The Facade pattern provides a single interface that encapsulate a set of interfaces from the subsystem, allowing for a single high-level interface that the user will interact with. The chatbot will be able to access all of these subsystems without the user ever being exposed to the internal structure of the system.
 
 5. Instantiate architectural elements, allocate responsbilities, and define interfaces
-
+file:///C:/Users/1mich/Downloads/assign2step5.png
 
 6. Sketch views and record design decisions
 7. Perform analysis of current design and review iteration goal
