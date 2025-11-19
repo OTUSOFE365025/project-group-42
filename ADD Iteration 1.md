@@ -51,6 +51,7 @@ This system is comprised of multiple complex subsystems that all work together t
 
 6. Sketch views and record design decisions  
 <img width="706" height="448" alt="asdadfas" src="https://github.com/user-attachments/assets/873a9594-6aaf-4591-941f-90fe961742fd" />
+<img width="700" height="435" alt="assignnstep6" src="https://github.com/user-attachments/assets/1f66e441-cc06-43e2-8bf9-b70d4c49e9ff" />
 
 
 7. Perform analysis of current design and review iteration goal
