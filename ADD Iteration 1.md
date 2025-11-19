@@ -47,24 +47,7 @@ The main AIDAP application layer will be decomposed as it is the main system, wh
 This system is comprised of multiple complex subsystems that all work together to fulfill a multitude of services for the user; they will need to be accessible through one interface for the user. Additionally, the system must have multiple interchangeable parts, such as CON8. Given this, it seems appropriate to begin with the Facade design pattern. The Facade pattern provides a single interface that encapsulate a set of interfaces from the subsystem, allowing for a single high-level interface that the user will interact with. The chatbot will be able to access all of these subsystems without the user ever being exposed to the internal structure of the system.
 
 5. Instantiate architectural elements, allocate responsbilities, and define interfaces   
-User and user permissions service:  
-Responsible for managing user roles and access levels. This element ensures security and system integrity by enforcing proper authorization.  
-User authentication service:  
-Authenticating users before they are allowed to access any user specific data is in the best interest of stakeholders to hold to privacy concerns. The SSO authentication requirement will need to be applied for this element of the system.  
-Notifications service:  
-Provides alerts, schedule updates, and announcements. This supports stakeholder needs for timely and automated communication across devices.  
-System monitoring service:  
-Constant system monitoring is used for logging, catching errors, and display for system maintainers.  
-Conversational service:  
-Acts as the primary interface for students, faculty, and administrators. It routes user queries to the subsystems through the facade and returns responses.  
-AI model and API keys services:  
-Handling these elements separately will prove to be beneficial as they will need to be easily updated and interchanged.  
-System failure and backup services:  
-Handling failures as well as backing up information will require temporary information storage that will be updated at a certain interval.  
-Storage services:  
-Provides storage for user-specific data, conversation context, system configurations, and university information. Ensures data integrity, availability, and scalability.  
-Data integration services:  
-The purpose of this element is to pull the information from the university, at the changeable intervals, and synchronize the data between all systems.  
+<img width="2550" height="3300" alt="assign2step5" src="https://github.com/user-attachments/assets/1875cf0e-807f-4e20-bae4-07d90e5f6774" />
 
 6. Sketch views and record design decisions  
 ![alt](images/asdadfas.PNG)
