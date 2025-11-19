@@ -1,5 +1,4 @@
 1. Review Inputs
-
 - Why are we performing this design
   The goal of this software is to provide a system that provides a conversational AI program for students, faculty, and administrators to interact with to receive personal or course wide information, such as course schedules, deadlines, announcements, and academic analytics. The AI assistant will integrate with external university systems to deliver on topic answers. The institutions data will be available to the system to ensure accurate responses.
 
@@ -44,9 +43,15 @@
 
 2. Establish iteration goal
   The goal of the first iteration is to establish the system’s architectural foundation by identifying major interfaces, key quality attributes, essential use cases, and system constraints. This iteration produces the initial module decomposition and selects an architectural pattern to guide further design and development.
+
 3. Choose one or more elements to decompose
+  The main AIDAP application layer will be decomposed as it is the main system, which is being driven by the prioritized inputs listed in step 1.
+
 4. Choose one or more design concepts that satisfy the inputs
-- Choose a few concepts, and then pick one that satisfies it best
+  This system is comprised of multiple complex subsystems that all work together to fulfill a multitude of services for the user; they will need to be accessible through one interface for the user. Additionally, the system must have multiple interchangeable parts, such as CON8. Given this, it seems appropriate to begin with the Facade design pattern. The Facade pattern provides a single interface that encapsulate a set of interfaces from the subsystem, allowing for a single high-level interface that the user will interact with. The chatbot will be able to access all of these subsystems without the user ever being exposed to the internal structure of the system.
+
 5. Instantiate architectural elements, allocate responsbilities, and define interfaces
+
+
 6. Sketch views and record design decisions
 7. Perform analysis of current design and review iteration goal
