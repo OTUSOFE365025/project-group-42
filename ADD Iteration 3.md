@@ -1,9 +1,9 @@
 Step 1: Review Inputs
-Reviewing the inputs, the ones found to be most relevant to this iteration are the following:
-All usecases are relevant for this iteration, each one defining a new ability for different stakeholder access levels
-QA4: Accessing usser information only allowed for a certain access level
-CON6: Secure user role access must be achieved for the product to fulfill this constraint
-CRN8: Relates to this iteration pertaining to the application of the roles and permissions
+Reviewing the inputs, the ones found to be most relevant to this iteration are the following:  
+All usecases are relevant for this iteration, each one defining a new ability for different stakeholder access levels  
+QA4: Accessing usser information only allowed for a certain access level  
+CON6: Secure user role access must be achieved for the product to fulfill this constraint  
+CRN8: Relates to this iteration pertaining to the application of the roles and permissions  
 
 Step 2: Establish iteration goal by selecting drivers
 The goal of this iteration is to design the user and user permissions service, maintaining its purpose and responsibilities. This is the beginning of the decomposition of specific sections of the system, and will be focusing on QA4, CON6, CRN8, and the discsernment of different roles from the UCs
